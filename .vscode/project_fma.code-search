@@ -1,0 +1,9 @@
+# Query: user_ids 
+# Including: ./addons-extra
+# ContextLines: 1
+
+1 result - 1 file
+
+addons-extra\hide_menu_user\models\res_user.py:
+  67  
+  68:     restrict_user_ids = fields.Many2many('res.users')
